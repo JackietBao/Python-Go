@@ -53,6 +53,10 @@ E:\django_project> env\Scripts\activate.bat
 (env) E:\django_project>
 ```
 
+liunx
+
+source env/bin/activate
+
 **盘符前有`(env)`标识说明进入venv成功。**
 
 ## 安装Django
