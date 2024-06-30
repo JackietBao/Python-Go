@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../../Lang/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Language/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="2eik92g76PeJGbWA5MlkajFh6sk" />
   <component name="ProjectViewState">
@@ -36,7 +36,8 @@
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/JackietBao"
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/Github/Python-Go/GoLang/Gin Web框架/2.time/3.demo_time.mt"
   }
 }]]></component>
   <component name="RunManager">
@@ -51,7 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
