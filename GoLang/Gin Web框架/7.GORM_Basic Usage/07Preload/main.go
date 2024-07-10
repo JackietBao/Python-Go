@@ -8,9 +8,6 @@ import (
 )
 
 /*
-查询结果
-三、多对多
-阿良教育： www.aliangedu.cn
 constraint:OnUpdate:CASCADE 【当User表更新，也会同步给CreditCards】
 OnDelete:SET NULL 【当User中数据被删除时，CreditCard关联设置为 NULL，不删除记录】
 */
