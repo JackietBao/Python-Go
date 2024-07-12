@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery 操作 HTML 示例</title>
+  <!-- 引入 jQuery 库 -->
+  <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<p id="demo">这是一段落。</p>
+<button id="hide" type="button">隐藏</button>
+<button id="show" type="button">显示</button>
+<button id="toggle" type="button">切换</button>
+
+<script type="text/javascript">
+  // 隐藏段落
+  $("#hide").click(function() {
+    $("p").hide();
+  });
+
+  // 显示段落
+  $("#show").click(function() {
+    $("p").show();
+  });
+
+  // 切换段落的显示和隐藏
+  $("#toggle").click(function() {
+    $("p").toggle();
+  });
+</script>
+</body>
+</html>

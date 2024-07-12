@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 元素选择器示例</title>
+  <style>
+    /* 示例1: h1元素设置样式 */
+    h1 {
+      color: red;
+      font-size: 14px;
+    }
+
+    /* 示例2: 多个元素设置样式 */
+    h1, h2, h3, h4, h5, h6 {
+      color: green;
+    }
+
+    /* 示例3: 子元素会继承最高级元素所有属性 */
+    body {
+      color: #000;
+      font-family: Verdana, serif; /* 字体 */
+    }
+  </style>
+</head>
+<body>
+<h1>这是一个一级标题</h1>
+<h2>这是一个二级标题</h2>
+<p>这是一个段落内容，展示如何继承body的字体和颜色属性。</p>
+<p>再增加一个段落内容，进一步展示继承效果。</p>
+</body>
+</html>

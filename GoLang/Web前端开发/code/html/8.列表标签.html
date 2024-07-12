@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML 下拉列表标签示例</title>
+</head>
+<body>
+<h1>HTML 下拉列表标签示例</h1>
+
+<form action="https://www.example.com/submit" method="post">
+  <label for="single-select">单选下拉列表:</label>
+  <select id="single-select" name="single-select">
+    <option value="option1">选项 1</option>
+    <option value="option2">选项 2</option>
+    <option value="option3">选项 3</option>
+  </select>
+  <br><br>
+
+  <label for="multi-select">多选下拉列表:</label>
+  <select id="multi-select" name="multi-select" multiple size="3">
+    <option value="option1">选项 1</option>
+    <option value="option2" selected>选项 2 (默认选中)</option>
+    <option value="option3">选项 3</option>
+    <option value="option4">选项 4</option>
+  </select>
+  <br><br>
+
+  <label for="disabled-select">禁用的下拉列表:</label>
+  <select id="disabled-select" name="disabled-select" disabled>
+    <option value="option1">选项 1</option>
+    <option value="option2">选项 2</option>
+  </select>
+  <br><br>
+
+  <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

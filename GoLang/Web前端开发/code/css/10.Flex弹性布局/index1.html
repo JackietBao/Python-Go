@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flexbox 主轴和交叉轴示例</title>
+  <style>
+    .container {
+      display: flex; /* 启用Flex布局 */
+      justify-content: center; /* 在主轴上居中对齐子元素 */
+      align-items: center; /* 在交叉轴上居中对齐子元素 */
+      height: 100vh; /* 设置容器高度 */
+      border: 2px solid #000;
+      background-color: #f0f0f0;
+    }
+
+    .item {
+      background-color: lightblue;
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Flexbox 主轴和交叉轴示例</h1>
+
+<div class="container">
+  <div class="item">项目1</div>
+  <div class="item">项目2</div>
+  <div class="item">项目3</div>
+</div>
+
+<p>Flex布局有一个隐式的坐标空间，水平方向有一条主轴，垂直方向有一条交叉轴：</p>
+<img src="./src/Asuka.jpg" alt="Flex布局的主轴和交叉轴示例">
+</body>
+</html>

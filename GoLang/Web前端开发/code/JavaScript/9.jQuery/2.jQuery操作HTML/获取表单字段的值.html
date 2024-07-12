@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>获取表单字段值示例</title>
+  <!-- 引入 jQuery 库 -->
+  <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<h1>欢迎访问运维管理系统</h1>
+用户名：<input type="text" id="uname" name="username"><br>
+密码：<input type="text" id="pwd" name="password"><br>
+<button type="button" id="btn">显示输入内容</button>
+<p id="demo"></p>
+
+<script type="text/javascript">
+  $("#btn").click(function() {
+    var x = $("#uname").val(); // 获取用户名输入框的值
+    var y = $("#pwd").val(); // 获取密码输入框的值
+    $("#demo").text(x + ', ' + y).css("color", "red"); // 显示输入的内容
+  });
+</script>
+</body>
+</html>

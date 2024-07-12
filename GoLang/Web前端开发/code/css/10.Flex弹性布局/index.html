@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Flexbox 布局示例</title>
+    <style>
+        .container {
+            display: flex; /* 启用Flex布局 */
+            justify-content: space-around; /* 在主轴上均匀分布子元素 */
+            align-items: center; /* 在交叉轴上居中对齐子元素 */
+            height: 100vh; /* 设置容器高度 */
+            border: 2px solid #000;
+        }
+
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<h1>CSS Flexbox 布局示例</h1>
+
+<div class="container">
+    <div class="item">项目1</div>
+    <div class="item">项目2</div>
+    <div class="item">项目3</div>
+</div>
+</body>
+</html>

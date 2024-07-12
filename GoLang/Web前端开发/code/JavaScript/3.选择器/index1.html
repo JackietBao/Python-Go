@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>通过标签名查找元素</title>
+</head>
+<body>
+<!-- div 元素 -->
+<div id="main">
+  <p>Hello world! 1</p>
+  <p>Hello world! 2</p>
+  <p>Hello world! 3</p>
+</div>
+
+<!-- JavaScript 代码 -->
+<script type="text/javascript">
+  // 获取 id 为 main 的元素
+  var x = document.getElementById("main");
+  // 获取 div 中的 p 标签集合
+  var y = x.getElementsByTagName("p");
+  // 向当前文档写入内容
+  document.write("div 中的第二段文本是：" + y[1].innerHTML);
+</script>
+</body>
+</html>

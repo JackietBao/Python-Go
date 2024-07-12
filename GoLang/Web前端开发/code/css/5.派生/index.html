@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 派生选择器示例</title>
+    <style>
+        /* 派生选择器 */
+        .c p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>CSS 派生选择器示例</h1>
+
+<div class="c">
+    <h1>一级标题</h1>
+    <p>这是一个段落，颜色将被设置为红色，因为它在类为 "c" 的 div 中。</p>
+</div>
+
+<div>
+    <p>这是一个段落，颜色不会被改变，因为它不在类为 "c" 的 div 中。</p>
+</div>
+</body>
+</html>

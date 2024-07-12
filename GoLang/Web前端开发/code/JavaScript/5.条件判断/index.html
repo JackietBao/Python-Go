@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>灯光控制示例</title>
+</head>
+<body>
+<img id="myimage" src="./src/off.jpg" alt="灯光状态">
+<button type="button" onclick="changeImage('on')">开灯</button>
+<button type="button" onclick="changeImage('off')">关灯</button>
+
+<script type="text/javascript">
+    function changeImage(status) {
+        var x = document.getElementById('myimage'); // 使用 var 声明变量
+        if (status === 'on') { // 使用严格相等（===）
+            x.src = "./src/on.jpg";
+        } else if (status === 'off') {
+            x.src = "./src/off.jpg";
+        }
+    }
+</script>
+</body>
+</html>

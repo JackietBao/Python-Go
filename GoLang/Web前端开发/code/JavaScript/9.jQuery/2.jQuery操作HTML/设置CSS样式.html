@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>设置 CSS 样式示例</title>
+  <!-- 引入 jQuery 库 -->
+  <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <style>
+    .cls {
+      color: blue;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo">
+  <p>这是一个段落</p>
+</div>
+<button id="btn">添加样式</button>
+
+<script type="text/javascript">
+  $("#btn").click(function() {
+    // 设置段落文字颜色为红色
+    $("#demo p").css("color", "red");
+
+    // 设置多个 CSS 属性
+    $("#demo p").css({
+      "color": "red",
+      "font-size": "30px"
+    });
+
+    // 添加类样式
+    $("#demo").addClass("cls");
+
+    // 删除类样式
+    $("#demo").removeClass("cls");
+
+    // 切换类样式
+    $("#demo").toggleClass("cls");
+  });
+</script>
+</body>
+</html>

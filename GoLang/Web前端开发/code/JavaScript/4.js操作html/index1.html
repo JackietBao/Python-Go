@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>插入内容示例</title>
+</head>
+<body>
+<!-- 向文档写入 HTML 内容 -->
+<script type="text/javascript">
+  document.write("<p>这是JS写入的段落</p>");
+</script>
+
+<!-- 获取 id 为 demo 的元素，并向其插入 HTML 内容 -->
+<div id="demo"></div>
+<script type="text/javascript">
+  var x = document.getElementById("demo");
+  x.innerHTML = "Hello";
+</script>
+</body>
+</html>
